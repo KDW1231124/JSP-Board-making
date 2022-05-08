@@ -57,7 +57,7 @@
           if (result == -1) { // -1일 경우 데이터베이스 오류
               PrintWriter script = response.getWriter();
               script.println("<script>");
-              script.println("alert('글삭제에 실패했습니다.')");
+              script.println("alert('글삭제에 실패했습니다..')");
               script.println("history.back()");
               script.println("</script>");
           } else { // 삭제성공
